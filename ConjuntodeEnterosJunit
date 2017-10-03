@@ -1,0 +1,59 @@
+import org.junit.*;
+import static org.junit.Assert.*; 
+
+public class ConjuntoTest{
+    private ConjuntoDeEnteros conjunto1;
+    private ConjuntoDeEnteros conjunto2;
+    private ConjuntoDeEnteros conjunto3;
+    private ConjuntoDeEnteros conjuntoVacio;
+    
+    
+    private int[] vectorConjunto1={1,2,3};
+    private int[] vectorConjunto2={1,2,3,4,5,6,7,8,9,10,11,12};
+    private int[] vectorConjunto3={7,5,4,9,7}; 
+    private int[] vectorConjuntoVacio={}; 
+    
+    @Before
+     public void inicializa() {
+        conjunto1= new ConjuntoDeEnteros (vectorConjunto1);
+        conjunto2= new ConjuntoDeEnteros (vectorConjunto2);
+        conjunto3= new ConjuntoDeEnteros (vectorConjunto3);
+        conjuntoVacio= new ConjuntoDeEnteros (vectorConjuntoVacio);
+    }
+    
+    @Test
+    public void pruebaConstructor() {
+    }
+    
+    public void pruebaCardinal() {
+    
+    }
+    
+    public void pruebaEstaVacio() {
+    }
+    
+    public void pruebaAñade() {
+    }
+    
+    public void pruePertenece() {
+    }
+    
+    public void pruebaUnion() {
+    }
+    
+    public void pruebaInterseccion() {
+    }
+    
+    public void pruebaDiferencia() {
+    }
+    
+    public void pruebaEquals() {
+    }
+    
+    public void pruebaContenido() {
+    }
+    
+    public void pruebaElementos() {
+    }
+    
+}
